@@ -1,7 +1,11 @@
 # GA4 E-commerce Analytics: Conversion Funnel, Cohort Retention & Predictive Modeling
 
 **SQL + Python | Google BigQuery · Pandas · scikit-learn · LightGBM · SHAP · Plotly**
+### Live Interactive Dashboard
 
+[View the GA4 Retention & Model Monitoring Dashboard](https://xinhaidi021005-sudo.github.io/GA4-Ecommerce-Analytics/dashboard/GA4_Model_Monitoring_Dashboard.html)
+
+Explore cohort retention trends, behavioral feature drift, actual vs. predicted retention, and model performance through interactive Plotly visualizations.
 An end-to-end analytics portfolio project built on **Google's public, obfuscated GA4 e-commerce sample dataset**. The analysis connects a sequential shopping funnel, weekly customer return cohorts, and a first-session retention prediction model—then examines how model performance changes across time.
 
 > **Project status:** Exploratory analysis, feature engineering, explainability, and holdout evaluation completed. The prediction model is a **research prototype**, not a production-ready targeting or probability-estimation system. This is an independent portfolio project, not work commissioned by Google or an e-commerce operator.
