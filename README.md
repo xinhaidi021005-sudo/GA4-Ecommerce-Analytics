@@ -203,6 +203,7 @@ GA4-Ecommerce-Analytics/
 3. Open [`notebooks/GA4_Retention_Modeling_GitHub_Ready.ipynb`](notebooks/GA4_Retention_Modeling_GitHub_Ready.ipynb) in **Google Colab**. Install dependencies using [`requirements.txt`](requirements.txt) or the notebook's installation cells.
 4. Authenticate interactively with `google.colab.auth.authenticate_user()` and configure the `PROJECT_ID`, `DATASET_ID`, and `TABLE_ID` references for your own environment. Credentials are **not** included in this repository.
 5. Run feature validation, temporal splitting, modeling, SHAP, calibration, and monitoring cells in sequence. The notebook deliberately clears stored execution output to avoid publishing user-level identifiers; output images are available under [`figures/`](figures/).
+6. To reproduce the cohort retention heatmap, run sql/12_cohort_retention.sql in BigQuery, export the query results as ga4_cohort_retention.csv, and upload the CSV when prompted by Step 40 in the notebook.
 
 **Reproducibility limitation:** The provided notebook is designed to run against an accessible BigQuery feature table. It does **not** bundle raw event data, cloud access permissions, or a fully automated deployment pipeline.
 
